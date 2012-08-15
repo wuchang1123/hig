@@ -1,0 +1,29 @@
+{
+  "name": "hig",
+  "version": "0.0.7",
+  "description": "HiG server",
+  "main": "./lib/hig.js",
+  "bin": {
+    "hig": "./bin/hig"
+  },
+  "dependencies": {
+    "handlebars": "~1.0.6-2",
+    "express": "~3.0.0rc1",
+    "less": "~1.3.0",
+    "optimist": "~0.3.4",
+    "stylus": "~0.28.2"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "keywords": [
+    "hig"
+  ],
+  "engine": [
+    "node >=0.1.102"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "author": "chinghi",
+  "license": "BSD"
+}

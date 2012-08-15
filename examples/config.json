@@ -1,0 +1,39 @@
+{
+	"port": 1633,
+	"public": "/public",
+	"models": "/models",
+	"views": "/views",
+	"partials": "/partials",
+	"cssPackages": [
+		{
+			"path": "/assets/css/common/main.css",
+			"paths": [
+				"/assets/css/common/main.styl",
+				"/assets/css/common/t2.styl"
+			]
+		},
+		{
+			"path": "/assets/css/common/main2.css",
+			"paths": [
+				"/assets/css/common/t.less",
+				"/assets/css/common/t2.less"
+			]
+		}
+	],
+	"jsPackages": [
+		{
+			"path": "/assets/js/main.js",
+			"paths": [
+				"/assets/js/t.js",
+				"/assets/js/t2.js"
+			]
+		}
+	],
+	"routers": [
+		{
+			"match": "/:t",
+			"file": "/views/common/{{t}}.hdb",
+			"model": ["/models/common/{{t}}.json"]
+		}
+	]
+}
