@@ -1,6 +1,6 @@
 {
   "name": "hig",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "HiG server",
   "main": "./lib/hig.js",
   "bin": {
