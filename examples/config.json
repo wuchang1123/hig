@@ -4,6 +4,7 @@
 	"models": "/models",
 	"views": "/views",
 	"partials": "/partials",
+	"layouts": "/layouts",
 	"cssPackages": [
 		{
 			"path": "/assets/css/common/main.css",
