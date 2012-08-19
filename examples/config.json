@@ -16,8 +16,8 @@
 		{
 			"path": "/assets/css/common/main2.css",
 			"paths": [
-				"/assets/css/common/t.less",
-				"/assets/css/common/t2.less"
+				"/assets/css/common/less/t.less",
+				"/assets/css/common/less/t2.less"
 			]
 		}
 	],
