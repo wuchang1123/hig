@@ -1,4 +1,4 @@
-<div>
+<div data-path="views/channel">
 <h1>{{title}}</h1>
 <h2>频道数据{{channel}}</h2>
 <p>通用数据{{common}}</p>
