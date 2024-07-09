@@ -1,4 +1,4 @@
-<div>
+<div data-path="views">
 <h1>{{title}}</h1>
 <div>{{> t}}</div>
 <div>{{> dd}}</div>
